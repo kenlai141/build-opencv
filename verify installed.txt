@@ -4,7 +4,7 @@ python3
 
 import cv2
 cv2.__version__
-cv2.cuda.GpuMat()
+cv2.cuda_GpuMat()
 
 import dlib
 dlib.DLIB.DLIB_USE_CUDA
