@@ -25,4 +25,5 @@ pip3 install --upgrade  tensorflow-gpu==1.14
 pip3 install --upgrade  keras==2.3.1
 pip3 install --upgrade tensorflow-probability==0.7.0
 pip3 install --upgrade pandas
+pip3 install --upgrade joblib
 ```
