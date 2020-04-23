@@ -9,9 +9,9 @@ reboot
 
 1. open Software updater 
 2. settings
-3.Additional drivers 
-4.Using Nvidia 430 
-5.Apply changes 
+3. Additional drivers 
+4. Using Nvidia 430 
+5. Apply changes 
 6. wait to complete 
-7.reboot
+7. reboot
 
