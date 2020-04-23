@@ -1,0 +1,13 @@
+Open terminal
+
+python3
+
+import cv2
+cv2.__version__
+cv2.cuda.GpuMat()
+
+import dlib
+dlib.DLIB.DLIB_USE_CUDA
+
+import tensorflow as tf
+tf.test.is_gpu_available()
