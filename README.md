@@ -14,4 +14,3 @@ reboot
 5. Apply changes 
 6. wait to complete 
 7. reboot
-
