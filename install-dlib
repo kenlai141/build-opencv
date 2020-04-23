@@ -1,2 +1,2 @@
-sudo pip3 install setuptools
+sudo apt install cmake
 pip3 install dlib
