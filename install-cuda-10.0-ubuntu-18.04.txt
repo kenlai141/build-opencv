@@ -30,9 +30,7 @@ sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.
 
 ***
 cd ~
-***
-nano .bashrc
-
-export PATH=$PATH:/usr/local/cuda/bin
-export LD_LIBRARY_PATH=/usr/local/cuda/lib64
+sudo echo "export PATH=$PATH:/usr/local/cuda/bin" >> .bashrc
+sudo echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64" >> .bashrc
+source .bashrc
 
