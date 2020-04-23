@@ -34,3 +34,5 @@ sudo echo "export PATH=$PATH:/usr/local/cuda/bin" >> .bashrc
 sudo echo "export LD_LIBRARY_PATH=/usr/local/cuda/lib64" >> .bashrc
 source .bashrc
 ***************************************************************
+
+reboot 
