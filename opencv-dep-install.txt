@@ -13,13 +13,14 @@ sudo apt-get install -y libatlas-base-dev gfortran
 sudo apt-get install -y libhdf5-serial-dev
 sudo apt-get install -y python2.7-dev
 
-wget https://github.com/opencv/opencv/archive/4.1.0.zip
-wget https://github.com/opencv/opencv_contrib/archive/4.1.0.zip
-
-unzip 
+## openlink to download
+https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EV-VN6E5SlBLsMnr7dqtx5IB9fMYXz2j3PiwMHGWsHjgKQ?e=dwjgln
+https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EcGCNUHhWBBNnEkRsnnF7gwB5pBtT5TP0wVqrBOBE0TrGg?e=0GpGNQ
+## unzip the following
 opencv-4.1.0
 opencv_contrib-4.1.0
 
+## Open terminal ctrl + alt + T
 cd opencv-4.1.0
 mkdir build
 cd build
