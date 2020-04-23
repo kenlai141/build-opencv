@@ -13,17 +13,24 @@ sudo apt-get install -y libatlas-base-dev gfortran
 sudo apt-get install -y libhdf5-serial-dev
 sudo apt-get install -y python2.7-dev
 
-## openlink to download
-https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EV-VN6E5SlBLsMnr7dqtx5IB9fMYXz2j3PiwMHGWsHjgKQ?e=dwjgln
-https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EcGCNUHhWBBNnEkRsnnF7gwB5pBtT5TP0wVqrBOBE0TrGg?e=0GpGNQ
-## unzip the following
+*********************************************************************
+cd ~/Downloads
+wget https://github.com/opencv/opencv/archive/4.1.0.zip
+
+mv 4.1.0.zip opencv-4.1.0.zip
+
+wget https://github.com/opencv/opencv_contrib/archive/4.1.0.zip
+
+unzip 
 opencv-4.1.0
 opencv_contrib-4.1.0
+********************************************************************
 
-## Open terminal ctrl + alt + T
-cd opencv-4.1.0
+********************************************************************
+cd ~/Downloads/opencv-4.1.0
 mkdir build
 cd build
+********************************************************************
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
     -D WITH_CUDA=ON \
@@ -35,6 +42,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D BUILD_opencv_cudacodec=OFF \
     -D BUILD_EXAMPLES=ON ..
 
+
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+NO need
 (optional) 
 -D PYTHON3_EXECUTABLE=$(which python3) \
 -D PYTHON3_LIBRARY=/home/ai/venv_t14/lib/python3.6/config-3.6m-x86_64-linux-gnu/libpython3.6m.so \
@@ -42,10 +52,9 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 -D PYTHON3_NUMPY_INCLUDE_DIR=~/venv_t14/lib/python3.6/site-packages/numpy/core/include \
 -D BUILD_opencv_python3=ON \
 -D PYTHON3_PACKAGES_PATH=lib/xxxxxxx/site-packages \
-
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 nproc
-
 make -j $(($(nproc) - 1))
 sudo make install
 sudo ldconfig
