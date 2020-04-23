@@ -1,3 +1,6 @@
+
+*********************************
+cd ~/Download
 git clone https://github.com/davisking/dlib.git
 
 cd dlib
@@ -7,3 +10,4 @@ cmake --build .
 cd ..
 sudo pip3 install setuptools
 sudo python3 setup.py install
+*********************************
