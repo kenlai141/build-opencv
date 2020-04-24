@@ -7,7 +7,7 @@ cv2.__version__
 "OpticalFlowDual_TVL1_create" in dir(cv2.cuda)
 
 import dlib
-dlib.DLIB.DLIB_USE_CUDA
+dlib.DLIB_USE_CUDA
 
 import tensorflow as tf
 tf.test.is_gpu_available()
