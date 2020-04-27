@@ -1,4 +1,4 @@
-# build-opencv-4.1.0 with CUDA-10.0 in Ubuntu-18.04
+# Build opencv-4.1.0 with CUDA-10.0 in Ubuntu-18.04
 
 ```
 sudo apt-get update
