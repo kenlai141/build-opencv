@@ -7,6 +7,7 @@ sudo apt-get install ubuntu-desktop
 reboot
 ```
 
+Change to display card output
 1. open Software updater 
 2. settings
 3. Additional drivers 
