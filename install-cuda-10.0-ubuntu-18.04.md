@@ -19,7 +19,7 @@ sudo apt update
 ubuntu-drivers devices
 ```
 
-2. 安裝 CUDA 10 & cuDNN 7.6
+2. 安裝 CUDA 10.0 & cuDNN 7.6.4
 
 ```bash
 sudo apt-get install --no-install-recommends \
