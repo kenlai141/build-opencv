@@ -30,3 +30,9 @@ sudo apt update -y
 sudo apt upgrade -y --no-install-recommends
 sudo apt install -y build-essential pkg-config cmake git wget curl unzip
 ```
+
+Then follow the files order:
+1. install-cuda-10.0-ubuntu-18.04.md
+2. install-dlib.md
+3. opencv-dep-install.md
+4. verify installed.md
