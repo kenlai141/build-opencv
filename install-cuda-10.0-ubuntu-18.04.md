@@ -48,6 +48,13 @@ source .bashrc
 ```
 ***************************************************************
 
+5. Verify installed
+
+```bash
+nvidia-smi
+nvcc -V
+```
+
 ```bash
 reboot 
 ```
