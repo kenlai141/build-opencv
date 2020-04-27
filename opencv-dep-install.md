@@ -20,9 +20,9 @@ cd ~/Downloads
 ```
 Download below files
 
-[opencv-4.1.0](https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EV-VN6E5SlBLsMnr7dqtx5IB9fMYXz2j3PiwMHGWsHjgKQ?e=myihCm)
+[opencv-4.1.0.zip](https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EV-VN6E5SlBLsMnr7dqtx5IB9fMYXz2j3PiwMHGWsHjgKQ?e=myihCm)
 
-[opencv_contrib-4.1.0](https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EcGCNUHhWBBNnEkRsnnF7gwB5pBtT5TP0wVqrBOBE0TrGg?e=EAL0v1)
+[opencv_contrib-4.1.0.zip](https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EcGCNUHhWBBNnEkRsnnF7gwB5pBtT5TP0wVqrBOBE0TrGg?e=EAL0v1)
 
 unzip ```opencv-4.1.0.zip``` and ```opencv_contrib-4.1.0.zip```
 ********************************************************************
