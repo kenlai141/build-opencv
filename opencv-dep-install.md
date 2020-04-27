@@ -27,6 +27,8 @@ By default, they are downloaded at ```~/Downloads/```
 unzip ```opencv-4.1.0.zip``` and ```opencv_contrib-4.1.0.zip```
 ********************************************************************
 
+### Compile OpenCV
+
 ********************************************************************
 ```bash
 cd ~/Downloads/opencv-4.1.0
