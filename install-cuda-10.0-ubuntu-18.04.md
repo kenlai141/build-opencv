@@ -31,7 +31,9 @@ sudo apt-get install --no-install-recommends \
 3. 安裝 TensorRT
 
 ```bash
-sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.2-ga-cuda10.0 && sudo apt update && sudo apt install -y --no-install-recommends libnvinfer-dev=5.0.2-1+cuda10.0
+sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.2-ga-cuda10.0 \
+    && sudo apt update && sudo apt install -y --no-install-recommends \ 
+    libnvinfer-dev=5.0.2-1+cuda10.0
 ```
 
 4. Set environment variable
