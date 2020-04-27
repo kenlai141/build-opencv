@@ -33,6 +33,8 @@ mkdir build
 cd build
 ```
 ********************************************************************
+Make sure the current directory is ```~/Downloads/opencv-4.1.0/build/```
+
 ```bash
 cmake -D CMAKE_BUILD_TYPE=RELEASE \
     -D CMAKE_INSTALL_PREFIX=/usr/local \
