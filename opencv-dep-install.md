@@ -15,10 +15,10 @@ sudo apt-get install -y python2.7-dev
 ```
 
 *********************************************************************
-```bash
-cd ~/Downloads
-```
-Download below files
+
+### Download below files
+
+By default, they are downloaded at ```~/Downloads/```
 
 [opencv-4.1.0.zip](https://hkpc-my.sharepoint.com/:u:/g/personal/kenlai_hkpc_org/EV-VN6E5SlBLsMnr7dqtx5IB9fMYXz2j3PiwMHGWsHjgKQ?e=myihCm)
 
