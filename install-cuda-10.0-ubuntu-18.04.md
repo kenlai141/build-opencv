@@ -39,6 +39,7 @@ sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.
 4. Set environment variable
 
 ***************************************************************
+Make sure you are in directory ```~/```
 ```bash
 cd ~
 sudo echo "export PATH=$PATH:/usr/local/cuda/bin" >> .bashrc
