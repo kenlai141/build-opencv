@@ -1,4 +1,4 @@
-### Open terminal
+Open terminal
 
 ```bash
 python3
