@@ -27,6 +27,9 @@ pip3 install --upgrade keras==2.3.1
 pip3 install --upgrade tensorflow-probability==0.7.0
 pip3 install --upgrade pandas
 pip3 install --upgrade joblib
+```
+
+```bash
 sudo apt update -y
 sudo apt upgrade -y --no-install-recommends
 sudo apt install -y build-essential pkg-config cmake git wget curl unzip
