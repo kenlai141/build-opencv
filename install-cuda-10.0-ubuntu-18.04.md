@@ -34,6 +34,7 @@ sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.
     && sudo apt update && sudo apt install -y --no-install-recommends \ 
     libnvinfer-dev=5.0.2-1+cuda10.0
 ```
+Other approach: https://dmitry.ai/t/topic/41
 
 4. Set environment variable
 
