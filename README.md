@@ -1,8 +1,8 @@
 # Build OpenCV-4.1.0 with CUDA-10.0 in Ubuntu-18.04
 
-```
+```bash
 sudo apt-get update
-sudo apt-get install -y python3-dev python3-pip [//]:#make sure using python 3.6
+sudo apt-get install -y python3-dev python3-pip # make sure using python 3.6
 sudo apt-get install ubuntu-desktop
 reboot
 ```
@@ -16,7 +16,7 @@ Change to display card output
 6. wait to complete 
 7. reboot
 
-```
+```bash
 pip3 install --upgrade dm-sonnet==1.35
 pip3 install --upgrade Cython
 pip3 install --upgrade Flask
