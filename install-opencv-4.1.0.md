@@ -69,6 +69,8 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 nproc
 make -j $(($(nproc) - 1))
 ```
+### Install
+
 ```bash
 sudo make install
 sudo ldconfig
