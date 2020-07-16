@@ -28,12 +28,12 @@ sudo apt-get install --no-install-recommends \
     libcudnn7-dev=7.6.4.38-1+cuda10.0
 ```
 
-3. Install TensorRT
+3. Install TensorRT 5.1.5.0
 
 ```bash
-sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.0.2-ga-cuda10.0 \
+sudo apt update && sudo apt-get install nvinfer-runtime-trt-repo-ubuntu1804-5.1.5-ga-cuda10.0 \
     && sudo apt update && sudo apt install -y --no-install-recommends \ 
-    libnvinfer-dev=5.0.2-1+cuda10.0
+    libnvinfer-dev=5.1.5-1+cuda10.0
 ```
 Other approach: https://dmitry.ai/t/topic/41
 
