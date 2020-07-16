@@ -1,5 +1,7 @@
 # Build OpenCV-4.1.0 with CUDA-10.0 in Ubuntu-18.04
 
+python version must be 3.6
+
 ## If install from ubuntu-server
 
 ```bash
