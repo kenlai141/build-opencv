@@ -1,11 +1,15 @@
 # Build OpenCV-4.1.0 with CUDA-10.0 in Ubuntu-18.04
 
+## If install from ubuntu-server
+
 ```bash
 sudo apt-get update
 sudo apt-get install -y python3-dev python3-pip # make sure using python 3.6
 sudo apt-get install ubuntu-desktop
 reboot
 ```
+
+## Install from ubuntu-desktop
 
 Change to display card output
 1. open Software updater 
