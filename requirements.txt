@@ -1,0 +1,10 @@
+dm-sonnet==1.35
+Cython==0.29.6
+flask==1.0.2
+imageio==2.5.0
+scikit-learn==0.20.3
+joblib==0.13.2
+tensorflow-gpu==1.15
+keras==2.3.1
+tensorflow-probability==0.7.0
+pandas==1.0.0
