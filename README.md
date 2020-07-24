@@ -21,7 +21,7 @@ Change to display card output
 6. wait to complete 
 7. reboot
 
-Download or create the requirements.txt
+Download or create the requirements.txt and run
 ```bash
 pip3 install -r requirements.txt
 ```
