@@ -5,6 +5,7 @@
 ```bash
 sudo apt-get update
 sudo apt-get install -y python3-dev python3-pip # make sure using python 3.6
+sudo pip3 install --upgrade pip # make sure using pip3 > 19.0.0
 sudo apt-get install ubuntu-desktop
 reboot
 ```
@@ -21,6 +22,7 @@ Change to display card output
 7. reboot
 
 ```bash
+pip3 install -r requirements.txt
 pip3 install --upgrade dm-sonnet==1.35
 pip3 install --upgrade Cython
 pip3 install --upgrade Flask
