@@ -5,7 +5,7 @@
 ```bash
 sudo apt-get update
 sudo apt-get install -y python3-dev python3-pip # make sure using python 3.6
-sudo pip3 install --upgrade pip # make sure using pip3 > 19.0.0
+sudo python3 -m pip install --upgrade pip # make sure using pip3 > 19.0.0
 sudo apt-get install ubuntu-desktop
 reboot
 ```
